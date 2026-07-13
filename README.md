@@ -460,9 +460,7 @@ Through this project, the following skills are developed:
 
 # Author
 
-**Temesgen Abdissa**
-
-Information Systems Student  
+**Temesgen Abdissa** 
 Software Developer
 
 
