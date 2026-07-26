@@ -3,17 +3,18 @@ from account import Account
 
 class SavingsAccount(Account):
 
-    def __init__(self, owner, number, balance=0, interest_rate=0.05):
+    def __init__(self, owner, number, balance=0, rate=0.05):
+        super().__init__(owner, number, balance)
+        self.rate = rate
 
-        super().__init__(
-            owner,
-            number,
-            balance
+    def add_interest(self):
+        interest = self.balance * self.rate
+        self.deposit(interest)
+
+    def statement(self):
+        return (
+            f"Account Type: Savings\n"
+            f"Owner: {self.owner}\n"
+            f"Account: {self.account_number}\n"
+            f"Balance: {self.balance} ETB"
         )
-
-        self.interest_rate = interest_rate
-
-
-    def calculate_interest(self):
-
-        return self.balance * self.interest_rate
