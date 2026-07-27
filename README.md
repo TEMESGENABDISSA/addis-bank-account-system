@@ -1,48 +1,30 @@
-# Addis Bank — Account Management System
+# 🏦 Addis Bank — Account Management System
 
-## Overview
+A Python-based banking system developed progressively as a software engineering project. The system starts with a simple bank account and grows into a complete learning project covering **Object-Oriented Programming, inheritance, polymorphism, SOLID principles, design patterns, data structures, algorithms, trees, graphs, priority queues, automated testing, and Git/GitHub workflows**.
 
-## Features
-
-## Technologies
-
-## Project Architecture
-
-## Object-Oriented Programming
-
-## Design Patterns
-
-## Data Structures
-
-## Algorithms
-
-## Project Structure
-
-## Installation
-
-## Running the Project
-
-## Testing
-
-## Git Workflow
-
-## Learning Outcomes
-
-## Future Improvements
-## Testing
-
-Install the dependencies:
-
-```bash
-pip install -r requirements.txt
-pytest
-pytest -v
+The project uses Ethiopian customers and **ETB (Ethiopian Birr)** as the banking context.
 
 ---
 
-# 17. Check your project manually
+## 📌 Project Overview
 
-Run:
+The Addis Bank Account Management System was developed progressively throughout the module.
 
-```bash
-python practice.py
+Instead of creating a separate project for every topic, the same banking system was continuously extended as new software engineering concepts were introduced.
+
+The project follows this progression:
+
+```text
+Account Class
+     ↓
+Inheritance & Polymorphism
+     ↓
+SOLID Principles & Design Patterns
+     ↓
+Account Registry & Transaction History
+     ↓
+Algorithms
+     ↓
+Trees, Graphs & Priority Queue
+     ↓
+Automated Testing & Final Review
